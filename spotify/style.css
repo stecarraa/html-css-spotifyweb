@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* Generlas */
@@ -9,16 +10,19 @@
 a{
 text-decoration: none;
 display: block;
-color: black;
+color: white;
 }
 
 ol, ul, li {
 	list-style: none;
     padding: 10px;
+
 }
 
 main{
     padding-top: 80px;
+    background-color: rgb(29,29,29);
+    color:white;
 }
 
 ul #menu li a {
@@ -27,6 +31,14 @@ ul #menu li a {
     text-decoration: none;
     text-align: center;
     
+}
+
+.title{
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+.subtitle{
+    font-size: 10px;
 }
 
 
@@ -82,7 +94,7 @@ ul #menu li a {
 header{
     width: 100%;
     position: fixed;
-    background-color: darkblue;
+    background-color: rgb(24, 22, 22);
     opacity: 0.9;
 }
 
@@ -91,6 +103,7 @@ header{
 .card{
     width: calc(100% / 6 - 10px - 10px);
     margin: 10px 10px;
+    text-align: center;
 }
 
 img{
