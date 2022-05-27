@@ -27,13 +27,15 @@ main{
     color:white;
     background-color: rgb(29,29,29);
     height: calc(100vh - 120px);
-    overflow-y: auto;
+    
     
 }
 
 .central{
     width: calc(100% - 250px);
     float: left;
+    overflow-y: auto;
+    height: 100%;
 }
 
 .nav{
@@ -75,6 +77,29 @@ ul #menu li a {
     margin-right: 10px;
     display: inline-block;
     vertical-align: middle;
+}
+
+.user{
+        border-radius: 50%;
+        height: 25px;
+        margin-right: 10px;
+        background-color: lightgray;
+        vertical-align: middle;
+        display: inline-block;
+        width: auto;
+   
+}
+.playlist{
+    height: 70%;
+    overflow: auto;
+}
+
+.bottom-menu{
+    background-color: black;
+}
+
+.top-menu{
+    min-height: 300px;
 }
 
 .title{
@@ -195,12 +220,32 @@ img{
 footer{
     color: white;
     background-color: darkgrey;
+    height: 120px;
+    position: sticky;
+    z-index: 3;
 }
 
 
 /* volume/player bars */
 
+
 .bars {
+    display: block;
+    
+    height: 4px;
+    border-radius: 5px;
+    background-color: rgba(102, 32, 189, 0.4);
+    position: relative;
+}
+
+.small-bars {
+    height: 100%;
+    width: 20%;
+    border-radius: 5px;
+    background-color: white;
+    position: absolute;
+    left: 0px;
+    top: 0px;
 }
 
 
