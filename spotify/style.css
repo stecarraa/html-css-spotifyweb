@@ -19,12 +19,25 @@ ol, ul, li {
 
 }
 
+body{
+    
+}
+
 main{
-    padding-top: 80px;
-    background-color: rgb(29,29,29);
     color:white;
-    height: calc(100vh - 65px);
+    background-color: rgb(29,29,29);
+    height: calc(100vh - 120px);
     overflow-y: auto;
+    
+}
+
+.central{
+    width: calc(100% - 250px);
+    float: left;
+}
+
+.nav{
+    padding-top: 80px;
 }
 
 ul #menu li a {
@@ -35,6 +48,35 @@ ul #menu li a {
     
 }
 
+.wrap-menu{
+    float: left;
+    width: 250px;
+    background-color: black;
+    margin: 0 auto;
+    height: calc(100vh - 120px);
+}
+
+.icon{
+    width: 10%;
+}
+
+.small-logo{
+    display: none;
+}
+.logo{
+    display: block;
+    width: 80%;
+    padding: 5px;
+}
+
+.icon {
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
 .title{
     font-size: 13px;
     margin-bottom: 10px;
@@ -42,6 +84,14 @@ ul #menu li a {
 }
 .subtitle{
     font-size: 11px;
+}
+
+.section-title{
+    padding: 10px;
+}
+
+.section-subtitle{
+    padding: 10px;
 }
 
 
@@ -89,7 +139,7 @@ ul #menu li a {
 }
 
 .w-60{
-    width: 50%;
+    width: 60%;
 }
 
 
@@ -111,10 +161,12 @@ ul #menu li a {
 /* header properties */
 
 header{
-    width: 100%;
+    width:calc(100% - 250px);
     position: fixed;
     background-color: rgb(24, 22, 22);
     opacity: 0.9;
+    float: left;
+
 }
 
 /* card properties */
@@ -174,5 +226,8 @@ footer{
 @media all and (max-width: 600px) {
     
 }
+
+
+
 
 

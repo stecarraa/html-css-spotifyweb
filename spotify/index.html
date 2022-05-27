@@ -20,122 +20,153 @@
 
 
 <body>
-    <!-- header in fixed/trasparenza con bottone upgrade -->
-    <header>
-        <div class="container d-flex ai-center f-end">
-            <div class="btn-upgrade"><a href="#">Effettua l'upgrade</a></div>
-        </div>
-    </header>
+   
+   
     <!-- main in due zeioni principali -->
 
-    <main>
+    <main class="">
         <!-- sezione del menu a sinistra con altri 4 possibili sezioni interne  -->
-        <div class="menu"></div>
+        <div class="wrap-menu">
+            <div class="top-menu">
+                <div class="logo"><img src="./img/logo.svg" alt=""></div>
+                <div class="small-logo"><img src="./img/logo-small.svg" alt=""></div>
+                <div class="utility">
+                    <div ><a href=""><img class="icon" src="./img/home.svg" alt=""><span> Home</span></a></div>
+                    <div ><a href=""><img class="icon" src="./img/search.svg" alt=""> <span>Cerca</span></a></div>
+                    <div><a href=""><img class="icon" src="./img/libreria.svg" alt=""><span> La tua libreria</span></a></div>
+                </div>
+                <div class="playlist">
+                    <ul>
+                        <li>Nome Playlist</li>
+                        <li>Nome Playlist</li>
+                        <li>Nome Playlist</li>
+                        <li>Nome Playlist</li>
+                        <li>Nome Playlist</li>
+                        <li>Nome Playlist</li>
+                        <li>Nome Playlist</li>
+                        <li>Nome Playlist</li>
+                        <li>Nome Playlist</li>
+                        <li>Nome Playlist</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
 
         <!-- sezione del corpo principale della pagina a destra  -->
 
         <!-- sezione del menu corpo centrale -->
-        <section>
-            <div id="menu">
-                <ul class="d-flex jc-center f-wrap">
-                    <li><a href="#">IN EVIDENZA</a></li>
-                    <li><a href="#">PODCAST</a></li>
-                    <li><a href="#">CLASSIFICHE</a></li>
-                    <li><a href="#">GENERI E MOOD</a></li>
-                    <li><a href="#">NUOVE USCITE</a></li>
-                    <li><a href="#">SCOPRI</a></li>
-                </ul>
-            </div>
-        </section>
-        <!-- sezione RECENTLY palyed con le card quadrate in flex -->
-        <section>
-
-            <h3 class="section-title">Recently Played</h3>
-            <!-- contenitore flex x per le card -->
-            <div class="container d-flex ">
-                <!-- card  -->
-                <div class="card w-6x d-flex-column jc-sb ai-center">
-                    <div class="img-card"><img src="./img/metal_lifting.jpg" alt=""></div>
-                    <div class="title">Heavy Metal</div>
-                    <div class="subtitle">Subtitle</div>
+        <div class="central">
+            <!-- header in fixed/trasparenza con bottone upgrade -->
+            <header>
+                <div class="container d-flex ai-center f-end">
+                    <div class="btn-upgrade"><a href="#">Effettua l'upgrade</a></div>
                 </div>
-
-                <div class="card w-6x d-flex-column jc-sb ai-center">
-                    <div class="img-card"><img src="./img/aquietplace.jpeg" alt=""></div>
-                    <div class="title">Heavy Metal</div>
-                    <div class="subtitle">Subtitle</div>
+            </header>
+            
+        
+            <section class="nav">
+                <div id="menu">
+                    <ul class="d-flex jc-center f-wrap">
+                        <li><a href="#">IN EVIDENZA</a></li>
+                        <li><a href="#">PODCAST</a></li>
+                        <li><a href="#">CLASSIFICHE</a></li>
+                        <li><a href="#">GENERI E MOOD</a></li>
+                        <li><a href="#">NUOVE USCITE</a></li>
+                        <li><a href="#">SCOPRI</a></li>
+                    </ul>
                 </div>
-
-                <div class="card w-6x d-flex-column jc-sb ai-center">
-                    <div class="img-card"><img src="./img/cure.jpeg" alt=""></div>
-                    <div class="title">Heavy Metal</div>
-                    <div class="subtitle">Subtitle</div>
+            </section>
+            <!-- sezione RECENTLY palyed con le card quadrate in flex -->
+            <section>
+        
+                <h3 class="section-title">Recently Played</h3>
+                <!-- contenitore flex x per le card -->
+                <div class="container d-flex ">
+                    <!-- card  -->
+                    <div class="card w-6x d-flex-column jc-sb ai-center">
+                        <div class="img-card"><img src="./img/metal_lifting.jpg" alt=""></div>
+                        <div class="title">Heavy Metal</div>
+                        <div class="subtitle">Subtitle</div>
+                    </div>
+        
+                    <div class="card w-6x d-flex-column jc-sb ai-center">
+                        <div class="img-card"><img src="./img/aquietplace.jpeg" alt=""></div>
+                        <div class="title">Heavy Metal</div>
+                        <div class="subtitle">Subtitle</div>
+                    </div>
+        
+                    <div class="card w-6x d-flex-column jc-sb ai-center">
+                        <div class="img-card"><img src="./img/cure.jpeg" alt=""></div>
+                        <div class="title">Heavy Metal</div>
+                        <div class="subtitle">Subtitle</div>
+                    </div>
+        
+                    <div class="card w-6x d-flex-column jc-sb ai-center">
+                        <div class="img-card"><img src="./img/sinister.jpeg" alt=""></div>
+                        <div class="title">Heavy Metal</div>
+                        <div class="subtitle">Subtitle</div>
+                    </div>
+        
+                    <div class="card w-6x d-flex-column jc-sb ai-center">
+                        <div class="img-card"><img src="./img/stranger.jpeg" alt=""></div>
+                        <div class="title">Stranger Things, Vol.
+                            1 (a Netflix Original
+                            Series Soundtrack)</div>
+                        <div class="subtitle">Subtitle</div>
+                    </div>
+        
+                    <div class="card w-6x d-flex-column jc-sb ai-center">
+                        <div class="img-card"><img src="./img/split.jpeg" alt=""></div>
+                        <div class="title">Heavy Metal</div>
+                        <div class="subtitle">Subtitle</div>
+                    </div>
                 </div>
-
-                <div class="card w-6x d-flex-column jc-sb ai-center">
-                    <div class="img-card"><img src="./img/sinister.jpeg" alt=""></div>
-                    <div class="title">Heavy Metal</div>
-                    <div class="subtitle">Subtitle</div>
+        
+            </section>
+            <!-- fine sezione RECENTLY palyed -->
+        
+            <!-- inizio sezione Creato per jhon doe -->
+            <section>
+                <h3 class="section-title">Creato per John Doe</h3>
+                <h5 class="section-subtitle">Più ascolti, più accurati saranno i suggerimenti</h5>
+                <!-- contenitore flex x per le card -->
+                <div class="container d-flex">
+                    <!-- card  -->
+                    <div class="card w-6x d-flex-column jc-sb ai-center">
+                        <div class="img-card"><img src="./img/radar.jpeg" alt=""></div>
+                        <div class="title">Heavy Metal</div>
+                    </div>
+        
+                    <div class="card w-6x d-flex-column jc-sb ai-center">
+                        <div class="img-card"><img src="./img/mixdaily.jpeg" alt=""></div>
+                        <div class="title">Heavy Metal</div>
+                    </div>
                 </div>
-
-                <div class="card w-6x d-flex-column jc-sb ai-center">
-                    <div class="img-card"><img src="./img/stranger.jpeg" alt=""></div>
-                    <div class="title">Stranger Things, Vol.
-                        1 (a Netflix Original
-                        Series Soundtrack)</div>
-                    <div class="subtitle">Subtitle</div>
+            </section>
+            <!-- fine sezione Creato per jhon doe -->
+        
+            <!-- inizio sezione popular -->
+            <section>
+                <h3 class="section-title">Artisti più popolari</h3>
+                <h5 class="section-subtitle">Più ascolti, più accurati saranno i suggerimenti</h5>
+                <!-- contenitore flex x per le card -->
+                <div class="container d-flex">
+                    <!-- card  -->
+                    <div class="card w-6x d-flex-column jc-sb ai-center">
+                        <div class="img-card-artist"><img src="./img/youg.jpeg" alt=""></div>
+                        <div class="title">Heavy Metal</div>
+                        <div class="subtitle">Subtitle</div>
+                    </div>
+        
+                    <div class="card w-6x d-flex-column jc-sb ai-center">
+                        <div class="img-card-artist"><img src="./img/einaudi.jpeg" alt=""></div>
+                        <div class="title">Heavy Metal</div>
+                        <div class="subtitle">Subtitle</div>
+                    </div>
                 </div>
-
-                <div class="card w-6x d-flex-column jc-sb ai-center">
-                    <div class="img-card"><img src="./img/split.jpeg" alt=""></div>
-                    <div class="title">Heavy Metal</div>
-                    <div class="subtitle">Subtitle</div>
-                </div>
-            </div>
-
-        </section>
-        <!-- fine sezione RECENTLY palyed -->
-
-        <!-- inizio sezione Creato per jhon doe -->
-        <section>
-            <h3 class="section-title">Creato per John Doe</h3>
-            <h5 class="section-subtitle">Più ascolti, più accurati saranno i suggerimenti</h5>
-            <!-- contenitore flex x per le card -->
-            <div class="container d-flex">
-                <!-- card  -->
-                <div class="card w-6x d-flex-column jc-sb ai-center">
-                    <div class="img-card"><img src="./img/radar.jpeg" alt=""></div>
-                    <div class="title">Heavy Metal</div>
-                </div>
-
-                <div class="card w-6x d-flex-column jc-sb ai-center">
-                    <div class="img-card"><img src="./img/mixdaily.jpeg" alt=""></div>
-                    <div class="title">Heavy Metal</div>
-                </div>
-            </div>
-        </section>
-        <!-- fine sezione Creato per jhon doe -->
-
-        <!-- inizio sezione popular -->
-        <section>
-            <h3 class="section-title">Artisti più popolari</h3>
-            <h5 class="section-subtitle">Più ascolti, più accurati saranno i suggerimenti</h5>
-            <!-- contenitore flex x per le card -->
-            <div class="container d-flex">
-                <!-- card  -->
-                <div class="card w-6x d-flex-column jc-sb ai-center">
-                    <div class="img-card-artist"><img src="./img/youg.jpeg" alt=""></div>
-                    <div class="title">Heavy Metal</div>
-                    <div class="subtitle">Subtitle</div>
-                </div>
-
-                <div class="card w-6x d-flex-column jc-sb ai-center">
-                    <div class="img-card-artist"><img src="./img/einaudi.jpeg" alt=""></div>
-                    <div class="title">Heavy Metal</div>
-                    <div class="subtitle">Subtitle</div>
-                </div>
-            </div>
-        </section>
+            </section>
+        </div>
         <!-- fine sezione popular -->
     </main>
 
@@ -163,7 +194,7 @@
 
             <!-- inizio sezione player -->
             <div class="center d-flex-column ai-center">
-            
+
                 <div class="play-btn d-flex jc-sb">
                     <div id="menu">
                         <ul class="d-flex jc-center">
@@ -174,38 +205,38 @@
                             <li><a href="#"><i class="fa-solid fa-arrow-rotate-right"></i></a></li>
                         </ul>
                     </div>
-                </div> 
-           
-                    
-                    <div class="play-bars d-flex jc-sb">
-                        <div id="menu">
-                            <ul class="d-flex jc-center">
-                                <li><a href="#">00:25</a></li>
-                                <li><a href="#">--------------</a></li>
-                                <li><a href="#">4:03</a></li>
-                            </ul>
-                        </div>
-                    </div>
                 </div>
-            
-   
-                <!-- inizio sezione volume -->
-                <div class="side w-20">
+
+
+                <div class="play-bars d-flex jc-sb">
                     <div id="menu">
                         <ul class="d-flex jc-center">
-                            <li><a href="#"><i class="fa-solid fa-bars"></i></a></li>
-                            <li><a href="#"><i class="fa-solid fa-desktop"></i></a></li>
-                            <li><a href="#"><i class="fa-solid fa-volume-high"></i></a></li>
-                            <li><a href="#">
-                                    <div class="bars">
-                                        <div class="small-bars">-----------</div>
-                                    </div>
-                                </a></li>
+                            <li><a href="#">00:25</a></li>
+                            <li><a href="#">--------------</a></li>
+                            <li><a href="#">4:03</a></li>
                         </ul>
                     </div>
                 </div>
-
             </div>
+
+
+            <!-- inizio sezione volume -->
+            <div class="side w-20">
+                <div id="menu">
+                    <ul class="d-flex jc-center">
+                        <li><a href="#"><i class="fa-solid fa-bars"></i></a></li>
+                        <li><a href="#"><i class="fa-solid fa-desktop"></i></a></li>
+                        <li><a href="#"><i class="fa-solid fa-volume-high"></i></a></li>
+                        <li><a href="#">
+                                <div class="bars">
+                                    <div class="small-bars">---</div>
+                                </div>
+                            </a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
     </footer>
 
 
