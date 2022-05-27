@@ -273,21 +273,37 @@ footer{
 
 
 
-@media all and (min-width: 1100px) {
+@media all and (max-width: 1100px){
+
+    .w-6x{
+        width: calc(100% / 6 - 10px - 10px);
+        margin: 10px 10px;
+    }
+
+ }
+
+
+@media all and (max-width: 700px){
+
+    
+    .w-6x{
+        width: calc(100% / 4 - 10px - 10px);
+        margin: 10px 10px;
+    }
+    
+
+}
+
+
+@media all and (max-width: 600px){
+    .w-6x{
+        width: calc(100% / 2 - 10px - 10px);
+        margin: 10px 10px;
+    }
+
     
 }
 
-@media all and (min-width: 701px) and (max-width: 1100px) {
-    
-}
-
-@media all and (min-width: 601px) and (max-width: 700px) {
-    
-}
-
-@media all and (max-width: 600px) {
-    
-}
 
 
 
