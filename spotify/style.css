@@ -228,6 +228,18 @@ footer{
 
 /* volume/player bars */
 
+.play-bars{
+    width: 100%;
+}
+
+#menu{
+    width: 100%;
+}
+
+.center{
+    width: 70%;
+}
+
 
 .bars {
     display: block;
@@ -251,6 +263,7 @@ footer{
 
 .bar{
     width: 80%;
+    display: block;
 }
 
 
