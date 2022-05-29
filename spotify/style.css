@@ -19,6 +19,16 @@ ol, ul, li {
 
 }
 
+li:hover {
+    font-weight: 800;
+}
+
+
+.fa-solid:hover {
+    color: gray;
+    
+}
+
 body{
     
 }
@@ -74,7 +84,7 @@ ul #menu li a {
 .icon {
     width: 32px;
     height: 32px;
-    margin-right: 10px;
+    margin: 5px;
     display: inline-block;
     vertical-align: middle;
 }
@@ -82,7 +92,7 @@ ul #menu li a {
 .user{
         border-radius: 50%;
         height: 25px;
-        margin-right: 10px;
+        margin: 10px;
         background-color: lightgray;
         vertical-align: middle;
         display: inline-block;
@@ -100,6 +110,9 @@ ul #menu li a {
 
 .top-menu{
     min-height: 300px;
+}
+.none{
+    padding: 10px;
 }
 
 .title{
@@ -160,7 +173,7 @@ ul #menu li a {
 }
 
 .w-20{
-    width: 20%;
+    width: 25%;
 }
 
 .w-60{
@@ -180,13 +193,33 @@ ul #menu li a {
     border: 1px solid white;
 }
 
+.play {
+    font-size: 5vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    color: green;
+}
+
+
+
+.card:hover .play {
+    display: block;
+}
+
+.card:hover .card-img img {
+    opacity: 50%;
+}
+
 
 
 
 /* header properties */
 
 header{
-    width:calc(100% - 250px);
+    width:calc(100% - 260px);
     position: fixed;
     background-color: rgb(24, 22, 22);
     opacity: 0.9;
@@ -199,6 +232,12 @@ header{
 .card{
     text-align: center;
     margin: 10px;
+}
+.img-card{
+    position: relative;
+}
+.img-card-artist{
+    position: relative;
 }
 
 img{
@@ -237,7 +276,7 @@ footer{
 }
 
 .center{
-    width: 70%;
+    width: 50%;
 }
 
 
@@ -246,7 +285,7 @@ footer{
     
     height: 4px;
     border-radius: 5px;
-    background-color: rgba(102, 32, 189, 0.4);
+    background-color: rgba(148, 143, 153, 0.4);
     position: relative;
 }
 
@@ -276,18 +315,18 @@ footer{
 @media all and (max-width: 1100px){
 
     .w-6x{
-        width: calc(100% / 6 - 10px - 10px);
+        width: calc(100% / 4 - 10px - 10px);
         margin: 10px 10px;
     }
+    
 
  }
 
 
 @media all and (max-width: 700px){
 
-    
     .w-6x{
-        width: calc(100% / 4 - 10px - 10px);
+        width: calc(100% / 2 - 10px - 10px);
         margin: 10px 10px;
     }
     
@@ -301,7 +340,58 @@ footer{
         margin: 10px 10px;
     }
 
+    .central{
+        width: calc(100% - 50px);
+        float: left;
+        overflow-y: auto;
+        height: 100%;
+    }
+
+    header{
+        width:calc(100% - 60px);
+        position: fixed;
+        background-color: rgb(24, 22, 22);
+        opacity: 0.9;
+        float: left;
     
+    }
+
+    .wrap-menu{
+        float: left;
+        width: 50px;
+        background-color: black;
+        margin: 0 auto;
+        height: calc(100vh - 120px);
+    }
+
+    .small-logo{
+        display: block;
+        width: 80%;
+        padding: 5px;
+    }
+
+    .logo{
+        display: none;
+    }
+     
+    .utility-name{
+        display: none;
+    }
+    .playlist{
+        display: none;
+    }
+
+    .none{display: none;}
+
+    .btn-upgrade a{
+        padding: 13px 20px;
+        background-color: black;
+        border-radius: 30px;
+        margin: 10px;
+        color: white;
+        border: 1px solid white;
+    }
+
 }
 
 
